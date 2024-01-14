@@ -14,3 +14,21 @@
   display: flex;
   justify-content: center;
 }
+
+.svg__background__desktop {
+  width: 100%;
+}
+
+.svg__background__mobile {
+  width: 100%;
+  display: none;
+}
+
+@media (width < 500px) {
+  .svg__background__desktop {
+    display: none;
+  }
+  .svg__background__mobile {
+    display: block;
+  }
+}
