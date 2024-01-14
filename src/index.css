@@ -1,0 +1,20 @@
+:root {
+  --DesaturatedDarkCyan: hsl(180, 29%, 50%);
+  /* BACKGOUND */
+  --LightGrayishCyan: hsl(180, 52%, 96%);
+  /* Filter tablets */
+  --LightGrayishCyan2: hsl(180, 31%, 95%);
+  --DarkGrayishCyan: hsl(180, 8%, 52%);
+  --VeryDarkGrayishCyan: hsl(180, 14%, 20%);
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+}

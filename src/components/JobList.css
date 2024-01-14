@@ -1,0 +1,83 @@
+.filter__container {
+  position: absolute;
+  top: -1.7rem;
+  background-color: white;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  border-radius: 0.2rem;
+}
+
+.job__container {
+  margin-top: 5rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.text__filter__container {
+  background-color: var(--LightGrayishCyan);
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.filter__items {
+  display: flex;
+  gap: 1rem;
+  width: 80%;
+  flex-wrap: wrap;
+  padding: 0.6rem 0;
+}
+
+.text__filter {
+  color: var(--DesaturatedDarkCyan);
+  font-size: 13px;
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+
+.x__filter {
+  background-color: var(--DesaturatedDarkCyan);
+  color: white;
+  cursor: pointer;
+  border: none;
+  height: 100%;
+  padding: 0 0.6rem;
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+
+.x__filter:hover {
+  background-color: var(--VeryDarkGrayishCyan);
+}
+
+.text__clear {
+  color: var(--DesaturatedDarkCyan);
+}
+
+.text__clear:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (width < 500px) {
+  .filter__container {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .filter__items {
+    width: 70%;
+    overflow: scroll;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .job__container {
+    width: 90%;
+    margin-top: 7rem;
+  }
+}

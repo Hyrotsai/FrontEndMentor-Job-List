@@ -1,0 +1,16 @@
+.main__section {
+  min-height: 100vh;
+}
+
+.svg__background {
+  background-color: var(--DesaturatedDarkCyan);
+  height: 10rem;
+}
+
+.content__section {
+  background-color: var(--LightGrayishCyan);
+  height: 85%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
